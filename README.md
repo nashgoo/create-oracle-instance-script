@@ -23,6 +23,30 @@ chmod +x /usr/local/bin/jq
 wget https://raw.githubusercontent.com/angelsky11/create-oracle-instance-script/main/create_oracle_instance.sh
 ```
 
+修改参数
+```bash
+vi create_oracle_instance.sh
+
+# 想要新建的实例名称
+INSTANCE_NAME='YOUR_INSTANCE_NAME'
+# 可用区域
+AVAILABILITY_DOMAIN='YOUR_AVAILABILITY_DOMAIN'
+# 镜像ID
+IMAGE_ID='YOUR_IMAGE_ID'
+# 子网ID
+SUBNET_ID='YOUR_SUBNET_ID'
+# 实例机型
+SHAPE='YOUR_SHAPE'
+# CPU数
+OCPUS=4
+# 内存数GB
+MEMORY_SIZE=24
+# 启动硬盘空间GB
+BOOT_VOL_SIZE=100
+# SSH认证公钥
+SSH_AUTH_KEY='YOUR_SSH_AUTH_KEY'
+```
+
 运行
 
 ```bash
