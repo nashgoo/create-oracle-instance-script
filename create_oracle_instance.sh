@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # 想要新建的实例名称
-INSTANCE_NAME='arm-jp'
+INSTANCE_NAME='YOUR_INSTANCE_NAME'
 # 可用区域
-AVAILABILITY_DOMAIN='ULPB:AP-TOKYO-1-AD-1'
+AVAILABILITY_DOMAIN='YOUR_AVAILABILITY_DOMAIN'
 # 镜像ID
-IMAGE_ID='ocid1.image.oc1.ap-tokyo-1.aaaaaaaa3aezbaykt4tizbvwd72ljzgcxc3cbjqofe3rp7n475l5wja6jbga'
+IMAGE_ID='YOUR_IMAGE_ID'
 # 子网ID
-SUBNET_ID='ocid1.subnet.oc1.ap-tokyo-1.aaaaaaaaxerzk4vthhrhia73bwttm3tyawvixtxcbtkzfs2iurgsjywtwhya'
+SUBNET_ID='YOUR_SUBNET_ID'
 # 实例机型
-SHAPE='VM.Standard.A1.Flex'
+SHAPE='YOUR_SHAPE'
 # CPU数
 OCPUS=4
 # 内存数GB
@@ -17,15 +17,15 @@ MEMORY_SIZE=24
 # 启动硬盘空间GB
 BOOT_VOL_SIZE=100
 # SSH认证公钥
-SSH_AUTH_KEY='ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEGO+oahWChTdSzRpSGzhz0mTxxHDdyltqx6OmIlqLKacK6PEiuqJVDRzgvqPK279ZlMPxwRbtevN9UCDf2icx+sbBVW7wHr9eTWCN74y0luepma3AWjzx7fNfCvXxFRQqr55zTTkswOs7wzYO+htlmZO44cDAsDEx8t0Lo4Ce8MMTPb5XgwPv3bLfQHwCTtYp/XGZkv2+YSfBMqtF9yzxhjF3hFmA9foe8ZiQEOyRMR9sWBEY8/q6FdlRmFztLlKiHuxlV5XzMS1874NxjiRpA4L8X+lH6uzdjottLbJnzZ8z7zgXAuARe+nlo9L5XbzdkdCl3iTKEzIrQEWJKIHj angelsky11@angelsky11-pc'
+SSH_AUTH_KEY='YOUR_SSH_AUTH_KEY'
 
 #server酱开关，0为关闭，1为server酱，2为telegram
 NOTIFICATION=0
 #server酱参数
 SERVERCHAN_KEY='YOUR_SERVERCHAN_KEY'
 #telegram参数
-BOT_TOKEN='1863458657:AAFz-j4pkH_kXht1EPKNiC1pMdgfzhlJoNU'
-USERID=636446790
+BOT_TOKEN='YOUR_BOT_TOKEN'
+USERID=YOUR_USERID
 
 # 此行以下不用修改
 
